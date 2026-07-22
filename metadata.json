@@ -1,0 +1,6 @@
+{
+  "name": "St Anny High School",
+  "description": "Official website for St Anny High School in Murali Nagar, Visakhapatnam. Established in 1996, offering CBSE curriculum with state-of-the-art facilities, holistic education, and inclusive admissions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
