@@ -3,11 +3,11 @@ import heroBuildingImg from '../assets/images/school_hero_building_1784743753089
 
 export const SCHOOL_DETAILS = {
   name: 'St Anny High School',
-  tagline: 'Excellence in English Medium Education & Holistic Character Development',
+  tagline: 'Nursery to Class 5 ICSE Syllabus & Class 6 to Class 10 State Syllabus English Medium Education',
   location: 'Murali Nagar, Visakhapatnam',
   fullAddress: 'Murali Nagar, Visakhapatnam, Andhra Pradesh 530007',
   establishedYear: 1996,
-  affiliation: 'English Medium Recognized School',
+  affiliation: 'Nursery – Class 5: ICSE Syllabus | Class 6 – 10: State Syllabus (Govt. Recognized)',
   medium: 'English Medium',
   rating: 4.1,
   totalReviewsCount: 31,
@@ -15,70 +15,70 @@ export const SCHOOL_DETAILS = {
   altPhone: '+91 9515773040',
   email: 'stannyeducational@gmail.com',
   infoEmail: 'stannyeducational@gmail.com',
-  officeHours: 'Nursery to 5th: ICSE Syllabus \n 6th to 10th: State Syllabus',
+  officeHours: 'Nursery to 5th: ICSE Syllabus | 6th to 10th: State Syllabus',
   heroImage: heroBuildingImg,
 };
 
 export const SCHEDULE_DAYS: ScheduleDay[] = [
-  { day: 'Monday', hours: '6:00 am - 6:00 pm', isOpen: true },
-  { day: 'Tuesday', hours: '6:00 am - 6:00 pm', isOpen: true },
-  { day: 'Wednesday', hours: '6:00 am - 6:00 pm', isOpen: true },
-  { day: 'Thursday', hours: '6:00 am - 6:00 pm', isOpen: true },
-  { day: 'Friday', hours: '6:00 am - 6:00 pm', isOpen: true },
-  { day: 'Saturday', hours: '6:00 am - 6:00 pm', isOpen: true },
+  { day: 'Monday', hours: 'School Working Day', isOpen: true },
+  { day: 'Tuesday', hours: 'School Working Day', isOpen: true },
+  { day: 'Wednesday', hours: 'School Working Day', isOpen: true },
+  { day: 'Thursday', hours: 'School Working Day', isOpen: true },
+  { day: 'Friday', hours: 'School Working Day', isOpen: true },
+  { day: 'Saturday', hours: 'School Working Day', isOpen: true },
   { day: 'Sunday', hours: 'Closed', isOpen: false, notes: 'Campus closed on Sundays' },
 ];
 
 export const SCHOOL_LEVELS: LevelInfo[] = [
   {
     id: 'preschool',
-    name: 'Preschool & Early Childhood',
-    grades: 'Playgroup & Nursery',
+    name: 'Preschool & Nursery (ICSE Pattern)',
+    grades: 'Playgroup & Nursery (ICSE Syllabus)',
     ageGroup: '2.5 – 3.5 Years',
-    description: 'A cheerful, safe play-way foundation designed to ignite curiosity, sensory skills, and early language development.',
-    highlights: ['Activity-based English Learning', 'Child-friendly Tactile Play Areas', 'Phonics & Basic Numeracy', 'Nutritional & Hygiene Routine'],
+    description: 'A cheerful, safe play-way foundation following the ICSE learning pattern designed to ignite curiosity, sensory skills, and early language development.',
+    highlights: ['ICSE Pattern Early Childhood Learning', 'Child-friendly Tactile Play Areas', 'Phonics & Basic Numeracy', 'Nutritional & Hygiene Routine'],
     icon: 'Baby',
-    curriculum: ['Sensory Play', 'Storytelling & Rhymes', 'Creative Coloring & Crafts', 'Social Interaction Skills']
+    curriculum: ['ICSE Play-Way Methodology', 'Sensory & Activity Play', 'Storytelling & Rhymes', 'Creative Crafts & Social Skills']
   },
   {
     id: 'kindergarten',
-    name: 'Kindergarten (LKG & UKG)',
-    grades: 'LKG & UKG',
+    name: 'Kindergarten (ICSE Pattern)',
+    grades: 'LKG & UKG (ICSE Syllabus)',
     ageGroup: '3.5 – 5.5 Years',
-    description: 'Transitioning young learners into structured, fun-filled literacy, mathematical concept formation, and motor skills.',
-    highlights: ['English Phonics Mastery', 'Cognitive Skill Building', 'Interactive Storytelling & Puppetry', 'Basic Environment Readiness'],
+    description: 'ICSE aligned kindergarten program transitioning young learners into structured, fun-filled literacy, mathematical concept formation, and motor skills.',
+    highlights: ['ICSE Pattern Foundational Syllabus', 'English Phonics Mastery', 'Cognitive Skill Building', 'Interactive Storytelling & Puppetry'],
     icon: 'Sparkles',
-    curriculum: ['Phonics & Pre-reading', 'Number Sense & Counting', 'Environmental Awareness', 'Art & Movement']
+    curriculum: ['ICSE Phonics & Pre-reading', 'Number Sense & Counting', 'Environmental Awareness', 'Art, Music & Movement']
   },
   {
     id: 'primary',
-    name: 'Primary Schooling',
-    grades: 'Class 1 to Class 5',
+    name: 'Primary Schooling (ICSE Syllabus)',
+    grades: 'Class 1 to Class 5 (ICSE Syllabus)',
     ageGroup: '6 – 10 Years',
-    description: 'Building robust academic fundamentals in Mathematics, Science, and English while encouraging sports, arts, and ethics.',
-    highlights: ['English Medium Core Syllabus', 'Computer Literacy Basics', 'Language Lab Practice', 'Sports & Physical Fitness Daily'],
+    description: 'Comprehensive ICSE Syllabus for Class 1 to 5 building robust academic fundamentals in English, Mathematics, Environmental Science, and Languages.',
+    highlights: ['ICSE Syllabus for Class 1 to 5', '100% English Medium Core Curriculum', 'Computer Literacy & Language Lab', 'Sports & Physical Fitness Daily'],
     icon: 'BookOpen',
-    curriculum: ['English Literature & Grammar', 'Mathematics & Logic', 'Environmental Studies (EVS)', 'Second Language (Telugu/Hindi)', 'Computer Basics']
+    curriculum: ['ICSE English Literature & Grammar', 'Mathematics & Logical Thinking', 'Environmental Studies (EVS)', 'Second Language (Telugu/Hindi)', 'Computer Science Basics']
   },
   {
     id: 'middle',
-    name: 'Middle Schooling',
-    grades: 'Class 6 to Class 8',
+    name: 'Middle Schooling (State Syllabus)',
+    grades: 'Class 6 to Class 8 (State Syllabus)',
     ageGroup: '11 – 13 Years',
-    description: 'Fostering analytical problem-solving, scientific inquiry, group projects, and structured co-curricular participation.',
-    highlights: ['Hands-on Science Experiments', 'Math Skill Competitions', 'Public Speaking & Debate Club', 'Value Education & Ethics'],
+    description: 'State Board Syllabus for Class 6 to 8 fostering analytical problem-solving, scientific inquiry, and strong conceptual foundations.',
+    highlights: ['Andhra Pradesh State Board Syllabus', 'Interactive Science & Computer Labs', 'Hands-on Learning Activities', 'Math Competitions & Logic Training'],
     icon: 'GraduationCap',
-    curriculum: ['Advanced Science (Physics, Chem, Bio)', 'Mathematics & Algebra', 'Social Sciences & Geography', 'English Communication', 'Coding & IT Fundamentals']
+    curriculum: ['State Board Physics, Chemistry & Biology', 'Mathematics & Algebra', 'Social Sciences & Geography', 'English Communication', 'Coding & IT Fundamentals']
   },
   {
     id: 'highschool',
-    name: 'High School',
-    grades: 'Class 9 & Class 10',
+    name: 'High School (State Syllabus & SSC Board)',
+    grades: 'Class 9 & Class 10 (State Syllabus)',
     ageGroup: '14 – 16 Years',
-    description: 'Comprehensive preparation for High School Examinations with structured mentoring, career guidance, and practical labs.',
-    highlights: ['100% Board Exam Pass Track Record', 'Special Remedial & Advanced Coaching', 'Sample Test Series', 'Career Counseling Workshops'],
+    description: 'State Board (SSC) curriculum preparation for Class 9 & 10 with structured mentoring, mock exams, and 100% pass track record.',
+    highlights: ['AP State Board (SSC) High School Curriculum', 'Comprehensive Board Exam Preparation', '100% Board Exam Pass Track Record', 'Special Remedial & Advanced Coaching'],
     icon: 'Award',
-    curriculum: ['Physics, Chemistry, Biology', 'Mathematics', 'Social Sciences & History', 'English Communicative', 'Information Technology']
+    curriculum: ['State Board Physics, Chemistry, Biology', 'Mathematics & Problem Solving', 'Social Sciences & History', 'English Communicative & Grammar', 'Information Technology']
   }
 ];
 
@@ -142,7 +142,7 @@ export const REVIEWS_LIST: Review[] = [
     relation: 'Alumnus & Local Resident',
     rating: 4,
     date: '5 months ago',
-    comment: 'Great school in Murali Nagar with a solid academic foundation since 1996. The science lab and campus support student learning well. Operating from 6:00 AM to 6:00 PM.',
+    comment: 'Great school in Murali Nagar with a solid academic foundation since 1996. Excellent dual syllabus offering ICSE for Nursery to 5th and AP State Board for 6th to 10th.',
     verified: true
   },
   {

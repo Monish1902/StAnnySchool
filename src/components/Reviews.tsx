@@ -51,7 +51,7 @@ export const Reviews: React.FC = () => {
             Trusted by Parents & Alumni in Visakhapatnam
           </h2>
           <p className="text-sm sm:text-base text-slate-600 font-normal leading-relaxed">
-            St Anny High School is rated <strong>4.1 stars based on 31 customer reviews</strong>. Here is what our parents, students, and community members say about our CBSE education.
+            St Anny High School is rated <strong>4.1 stars based on 31 customer reviews</strong>. Here is what our parents, students, and community members say about our English medium ICSE & State Board education.
           </p>
         </div>
 

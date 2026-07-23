@@ -47,10 +47,14 @@ export const Hero: React.FC = () => {
             </p>
 
             {/* Key feature checkmarks */}
-            <div className="grid grid-cols-2 sm:grid-cols-2 gap-3 text-xs sm:text-sm text-slate-200 max-w-xl mx-auto lg:mx-0 pt-1">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs sm:text-sm text-slate-200 max-w-xl mx-auto lg:mx-0 pt-1">
               <div className="flex items-center gap-2">
                 <CheckCircle2 className="w-4 h-4 text-amber-400 shrink-0" />
-                <span>Preschool to Class 10 High School</span>
+                <span>Nursery to 5th: ICSE Syllabus</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <CheckCircle2 className="w-4 h-4 text-amber-400 shrink-0" />
+                <span>6th to 10th: State Syllabus</span>
               </div>
               <div className="flex items-center gap-2">
                 <CheckCircle2 className="w-4 h-4 text-amber-400 shrink-0" />
@@ -58,11 +62,7 @@ export const Hero: React.FC = () => {
               </div>
               <div className="flex items-center gap-2">
                 <CheckCircle2 className="w-4 h-4 text-amber-400 shrink-0" />
-                <span>Medical Support & Science Labs</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <CheckCircle2 className="w-4 h-4 text-amber-400 shrink-0" />
-                <span>Operating Mon-Sat: 6 AM - 6 PM</span>
+                <span>Science & Computer Labs</span>
               </div>
             </div>
 

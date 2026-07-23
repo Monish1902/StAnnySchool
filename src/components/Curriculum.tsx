@@ -35,28 +35,29 @@ export const Curriculum: React.FC = () => {
           </p>
         </div>
 
-        {/* Medium of Instruction Banner */}
+        {/* Dual Syllabus Framework Banner */}
         <div className="mt-10 p-6 sm:p-8 rounded-2xl bg-gradient-to-r from-blue-900 via-indigo-900 to-slate-900 text-white shadow-md flex flex-col md:flex-row items-center justify-between gap-6 border border-slate-800">
           <div className="space-y-2 text-center md:text-left">
             <div className="inline-flex items-center gap-2 px-2.5 py-0.5 rounded bg-amber-400 text-slate-900 text-xs font-bold uppercase tracking-wider">
-              100% English Medium
+              100% English Medium Academic Structure
             </div>
             <h3 className="text-lg sm:text-xl font-bold font-serif text-amber-300">
-              English Medium Academic Framework
+              Dual Syllabus Pattern: ICSE & State Board
             </h3>
             <p className="text-xs sm:text-sm text-slate-300 max-w-2xl">
-              Ensuring fluency in English communication, critical scientific reasoning, and mathematical competency to build confidence for secondary school milestones.
+              From Nursery to Class 5, students follow the comprehensive ICSE syllabus for strong foundational language and analytical skills. From Class 6 to Class 10, students follow the Andhra Pradesh State Board syllabus for secondary academic excellence.
             </p>
           </div>
-          <div className="shrink-0 flex items-center gap-3">
-            <div className="px-4 py-2 bg-slate-800/80 rounded-xl border border-slate-700 text-center">
-              <span className="block text-xl font-serif font-extrabold text-amber-400">Preschool</span>
-              <span className="text-[10px] text-slate-400">Foundation Stage</span>
+          <div className="shrink-0 flex flex-col sm:flex-row items-center gap-3">
+            <div className="px-4 py-3 bg-slate-800/90 rounded-xl border border-amber-400/40 text-center min-w-[150px]">
+              <span className="block text-xs font-bold text-amber-400 uppercase tracking-wider">Nursery to Class 5</span>
+              <span className="block text-base font-serif font-extrabold text-white">ICSE Syllabus</span>
             </div>
-            <span className="text-slate-500 font-bold">→</span>
-            <div className="px-4 py-2 bg-slate-800/80 rounded-xl border border-slate-700 text-center">
-              <span className="block text-xl font-serif font-extrabold text-amber-400">High School</span>
-              <span className="text-[10px] text-slate-400">Class 10 Board</span>
+            <span className="text-slate-500 font-bold hidden sm:inline">+</span>
+            <div className="px-4 py-3 bg-slate-800/90 rounded-xl border border-blue-400/40 text-center min-w-[150px]">
+              <span className="block text-xs font-bold text-blue-300 uppercase tracking-wider">Class 6 to Class 10</span>
+              <span className="block text-base font-serif font-extrabold text-white">State Syllabus</span>
+              <span className="block text-[10px] text-blue-300 font-medium">SSC Board Exams</span>
             </div>
           </div>
         </div>
