@@ -15,7 +15,7 @@ export const SCHOOL_DETAILS = {
   altPhone: '+91 9515773040',
   email: 'stannyeducational@gmail.com',
   infoEmail: 'stannyeducational@gmail.com',
-  officeHours: 'Monday – Saturday: 6:00 AM to 6:00 PM',
+  officeHours: 'Nursery to 5th: ICSE Syllabus \n 6th to 10th: State Syllabus',
   heroImage: heroBuildingImg,
 };
 
